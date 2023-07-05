@@ -1,0 +1,2 @@
+obj\Debug\net7.0/AccommodationTemplate.cs: Protos/common.proto\
+ Protos/accommodationTemplate.proto

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package ClientList;
+
+import "client.proto";
+import "common.proto";
+
+/*
+    ClientList
+*/
+
+message ClientListRequest 
+{
+	repeated int32 clientIds = 1 [packed = true];
+	repeated string DocumentationNumber = 2;
+}
+
+message ClientListResponse
+{	
+	repeated Client.ClientResponse clients = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}

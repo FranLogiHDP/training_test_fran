@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package  Log;
+
+import "common.proto";
+
+/*
+    Log
+*/
+
+message LogListRequest 
+{
+	repeated int32 logId = 1 [packed = true];
+	repeated int32 accommodationId  = 2;
+	repeated int32 sendTypeId  = 3;
+	repeated int32 clientId  = 4;
+}
+
+message LogListResponse
+{	
+	repeated LogResponse logs = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message LogResponse {
+	int32 logId = 1;
+	int32 accommodationId = 2;
+    int32 sendTypeId  = 3;
+	int32 clientId  = 4;
+	string message = 5;
+}

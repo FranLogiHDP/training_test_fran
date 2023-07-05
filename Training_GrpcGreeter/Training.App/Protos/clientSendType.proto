@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package  ClientSendType;
+
+import "common.proto";
+
+/*
+    Client Send Type
+*/
+
+message ClientSendTypeListRequest 
+{
+	repeated int32 sendTypeId = 1 [packed = true];
+	repeated int32 clientId  = 2;
+}
+
+message ClientSendTypeListResponse
+{	
+	repeated ClientSendTypeResponse clientSendTypes = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message ClientSendTypeResponse {
+	int32 clientSendTypeId = 1;
+    int32 sendTypeId  = 2;
+	int32 clientId  = 3;
+}

@@ -1,0 +1,4 @@
+obj\Debug\net7.0/ClientList.cs: Protos/common.proto\
+ C:/Users/francisco.hidalgo/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/wrappers.proto\
+ Protos/client.proto\
+ Protos/clientList.proto

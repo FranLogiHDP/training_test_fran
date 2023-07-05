@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package  WorkingArea;
+
+import "common.proto";
+import "google/protobuf/wrappers.proto";
+
+/*
+    WorkingArea
+*/
+
+message WorkingAreaListRequest 
+{
+	repeated int32 workingAreaId  = 1 [packed = true];
+	repeated string zone = 2;
+}
+
+message WorkingAreaListResponse
+{	
+	repeated WorkingAreaResponse workingAreas = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message WorkingAreaResponse {
+    google.protobuf.Int32Value workingAreaId  = 1;
+	google.protobuf.StringValue zone = 2;
+}

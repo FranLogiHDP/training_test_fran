@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package Accommodation;
+
+import "common.proto";
+
+/*
+    Accommodation
+*/
+
+message AccommodationListRequest 
+{
+	repeated int32 accommodationId  = 1 [packed = true];
+}
+
+message AccommodationListResponse
+{	
+	repeated AccommodationResponse accommodations = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message AccommodationResponse {
+    int32 accommodationId  = 1;
+	string name  = 2;
+	int32 workingAreaId  = 3;
+}

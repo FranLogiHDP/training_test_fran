@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Training\\training_test_fran\\Training_GrpcGreeterClient\\Training.App\\Training.App.csproj": {}
+  },
+  "projects": {
+    "E:\\Training\\training_test_fran\\Training_GrpcGreeterClient\\Training.App\\Training.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Training\\training_test_fran\\Training_GrpcGreeterClient\\Training.App\\Training.App.csproj",
+        "projectName": "Training.App",
+        "projectPath": "E:\\Training\\training_test_fran\\Training_GrpcGreeterClient\\Training.App\\Training.App.csproj",
+        "packagesPath": "C:\\Users\\francisco.hidalgo\\.nuget\\packages\\",
+        "outputPath": "E:\\Training\\training_test_fran\\Training_GrpcGreeterClient\\Training.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\francisco.hidalgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://logitravel.myget.org/F/smy/auth/ce9f175e-328d-4e3d-8752-d8b3b0730829/api/v3/index.json": {},
+          "https://logitravel.myget.org/F/toolfactory-dev/auth/ce9f175e-328d-4e3d-8752-d8b3b0730829/api/v3/index.json": {},
+          "https://logitravel.myget.org/F/toolfactory/auth/ce9f175e-328d-4e3d-8752-d8b3b0730829/api/v3/index.json": {},
+          "https://nuget.hangfire.io/nuget/hangfire-pro/v3/index.json": {},
+          "https://nuget.travelgatex.com/v3/index.json": {},
+          "https://pkgs.dev.azure.com/toolfactory/_packaging/toolfactory/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.23.3, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.54.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.55.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

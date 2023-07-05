@@ -1,0 +1,13 @@
+obj\Debug\net7.0/Training.cs \
+obj\Debug\net7.0/TrainingGrpc.cs: Protos/common.proto\
+ C:/Users/francisco.hidalgo/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/wrappers.proto\
+ Protos/client.proto\
+ Protos/clientList.proto\
+ Protos/workingArea.proto\
+ Protos/accommodation.proto\
+ Protos/accommodationTemplate.proto\
+ Protos/sendType.proto\
+ Protos/clientSendType.proto\
+ Protos/log.proto\
+ Protos/booking.proto\
+ Protos/training.proto

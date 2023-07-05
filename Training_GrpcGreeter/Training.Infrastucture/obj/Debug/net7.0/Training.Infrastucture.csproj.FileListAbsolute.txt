@@ -1,0 +1,14 @@
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\bin\Debug\net7.0\Training.Infrastucture.deps.json
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\bin\Debug\net7.0\Training.Infrastucture.runtimeconfig.json
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\bin\Debug\net7.0\Training.Infrastucture.dll
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\bin\Debug\net7.0\Training.Infrastucture.pdb
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.csproj.AssemblyReference.cache
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.AssemblyInfoInputs.cache
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.AssemblyInfo.cs
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.csproj.CoreCompileInputs.cache
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.dll
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\refint\Training.Infrastucture.dll
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.pdb
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\Training.Infrastucture.genruntimeconfig.cache
+E:\Training\training_test_fran\Training_GrpcGreeter\Training.Infrastucture\obj\Debug\net7.0\ref\Training.Infrastucture.dll

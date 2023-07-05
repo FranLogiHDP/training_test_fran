@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package Client;
+
+import "common.proto";
+import "google/protobuf/wrappers.proto";
+
+/*
+    Client
+*/
+
+message ClientRequest 
+{
+	google.protobuf.Int32Value clientId  = 1;
+	google.protobuf.StringValue DocumentationNumber = 2;
+}
+
+message ClientResponse
+{	int32 clientId = 1;
+	string name = 2;
+	string phone = 3;
+	string DocumentationNumber = 4;
+	string email = 5;
+	bool failed = 6;
+	repeated Common.ApplicationError applicationErrors = 7;
+}

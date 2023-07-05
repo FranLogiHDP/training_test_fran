@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package  SendType;
+
+import "common.proto";
+
+/*
+    Send Type
+*/
+
+message SendTypeListRequest 
+{
+	repeated int32 sendTypeId = 1 [packed = true];
+	repeated int32 clientId  = 2;
+}
+
+message SendTypeListResponse
+{	
+	repeated SendTypeResponse sendTypes = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message SendTypeResponse {
+    int32 sendTypeId  = 1;
+	string typeMessage  = 2;
+	int32 clientId  = 3;
+}

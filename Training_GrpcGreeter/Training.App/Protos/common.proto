@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package Common;
+
+/*
+    Common
+*/
+
+message ApplicationError {
+    string code = 1;
+    string description = 2;
+}

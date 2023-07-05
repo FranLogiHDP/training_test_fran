@@ -1,0 +1,2 @@
+obj\Debug\net7.0/SendType.cs: Protos/common.proto\
+ Protos/sendType.proto

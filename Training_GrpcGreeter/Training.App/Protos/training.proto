@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+package Training;
+
+import "client.proto";
+import "clientList.proto";
+import "workingArea.proto";
+import "accommodation.proto";
+import "accommodationTemplate.proto";
+import "sendType.proto";
+import "clientSendType.proto";
+import "log.proto";
+import "booking.proto";
+
+service Training {
+	rpc GetClient (Client.ClientRequest) returns (Client.ClientResponse);
+	rpc GetClientList (ClientList.ClientListRequest) returns (ClientList.ClientListResponse);
+	rpc GetWorkingAreaList (WorkingArea.WorkingAreaListRequest) returns (WorkingArea.WorkingAreaListResponse);
+	rpc GetAccommodationList (Accommodation.AccommodationListRequest) returns (Accommodation.AccommodationListResponse);
+	rpc GetAccommodationTemplateList (AccommodationTemplate.AccommodationTemplateListRequest) returns (AccommodationTemplate.AccommodationTemplateListResponse);
+	rpc GetSendTypeList (SendType.SendTypeListRequest) returns (SendType.SendTypeListResponse);
+	rpc GetClientSendTypeList (ClientSendType.ClientSendTypeListRequest) returns (ClientSendType.ClientSendTypeListResponse);
+	rpc GetLogList (Log.LogListRequest) returns (Log.LogListResponse);
+	rpc GetBookingList (Booking.BookingListRequest) returns (Booking.BookingListResponse);
+	rpc UpsertBooking (Booking.BookingUpsertRequest) returns (Booking.BookingUpsertResponse);
+}

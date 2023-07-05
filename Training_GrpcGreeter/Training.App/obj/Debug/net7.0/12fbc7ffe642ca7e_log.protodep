@@ -1,0 +1,2 @@
+obj\Debug\net7.0/Log.cs: Protos/common.proto\
+ Protos/log.proto

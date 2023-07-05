@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option csharp_namespace = "Training.App";
+
+package  Booking;
+
+import "common.proto";
+import "google/protobuf/wrappers.proto";
+
+/*
+    Log
+*/
+
+message BookingListRequest 
+{
+	repeated int32 bookingId = 1 [packed = true];
+	repeated int32 accommodationId  = 2;
+	repeated int32 sendTypeId  = 3;
+	repeated int32 clientId  = 4;
+}
+
+message BookingListResponse
+{	
+	repeated BookingResponse bookings = 1;
+	bool failed = 2;
+	repeated Common.ApplicationError applicationErrors = 3;
+}
+
+message BookingResponse {
+	google.protobuf.Int32Value bookingId = 1;
+	int32 accommodationId = 2;
+    int32 sendTypeId  = 3;
+	int32 clientId  = 4;
+	string checkInDate = 5;
+	string checkOutDate = 6;
+	string bookingDate = 7;
+	double price = 8;
+}
+
+message BookingUpsertRequest {
+	BookingResponse booking = 1;
+}
+
+message BookingUpsertResponse {
+	string message = 1;
+	bool success = 2;
+}
+
+
